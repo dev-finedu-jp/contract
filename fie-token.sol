@@ -52,7 +52,7 @@ contract  Token is Context, ERC20 {
  */
 
     constructor(address _BUSD, address _addressReceiver, address _addressTreasury, address _addressBurn, address _addressDeposit, address _addressDev)
-        ERC20("FinEdU", "FIE")
+        ERC20("FinEdu", "FIE")
     {
         _mint(msg.sender, 10**10 * 10**18);
         adminlist[msg.sender] = 1;
